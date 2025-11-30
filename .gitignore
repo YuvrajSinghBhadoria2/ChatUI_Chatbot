@@ -1,0 +1,63 @@
+.env# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# ---- Virtual Environments ----
+venv/
+myenv/
+env/
+.venv/
+
+# ---- Environment / Secrets ----
+.env
+*.env
+.env.local
+.env.production
+.env.development
+
+# ---- Streamlit Cache ----
+.streamlit/
+**/.streamlit/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- MacOS ----
+.DS_Store
+
+# ---- Logs ----
+*.log
+
+# ---- Local Data Files ----
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.zip
+
+# ---- Vector Stores ----
+chroma/
+chroma_db/
+chroma_storage/
+*.chroma
+
+# ---- PDF & Documents ----
+*.pdf
+docs/
+
+# ---- LangChain Cache ----
+lc_cache/
+langchain_cache/
+
+# ---- Build Artifacts ----
+build/
+dist/
+*.egg-info/
+
